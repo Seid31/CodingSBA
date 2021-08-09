@@ -236,33 +236,43 @@ describe('SmallBiz Coding Challenge', () => {
    })
 
    it('36 - Verify “Save & Continue” button is now enabled', () => {
+
    })
 
    it('37 - Click on “Save & Continue” button ', () => {
+
    })
 
    it('38 - Verify url contains “/apply/prequalify/business/password”', () => {
+
    })
 
    it('39 - Verify Create password text box and “Save & Continue” buttons are present', () => {
+
    })
 
    it('40 - Enter the password “Test123!”', () => {
+
    })
 
    it('41 - Verify “Save & Continue” button is now enabled', () => {
+
    })
 
    it('42 - Click on “Save & Continue” button ', () => {
+      
    })
 
    it('43 - Verify url contains “/apply/prequalify/owners”', () => {
+
    })
 
    it('44 - Verify users first name is displayed on the page along with “Save & Continue” button enabled.', () => {
+
    })
 
    it('45 - Verify logout button on the top menu', () => {
+      
    })
 
    it('46 - Click on logout button ', () => {
@@ -288,7 +298,5 @@ describe('SmallBiz Coding Challenge', () => {
    it('51 - Verify the user is able to login to application ', () => {
 
    })
-
-
 })
 
