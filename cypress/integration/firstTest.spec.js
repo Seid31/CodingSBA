@@ -81,9 +81,7 @@ describe('Our first suite', () => {
             cy.wrap(secondForm).find('[for="exampleInputEmail1"]').should('contain', 'Email address')
 
          })
-
       })
-
    })
 
    it('invoke command', () => {
@@ -118,7 +116,6 @@ describe('Our first suite', () => {
       cy.contains('Forms').click()
       cy.contains('Datepicker').click()
 
-
       cy.contains('nb-card', 'Common Datepicker').find('input').then(input => {
          cy.wrap(input).click()
          cy.get('nb-calendar-day-picker').contains('17').click()
@@ -151,7 +148,6 @@ describe('Our first suite', () => {
       cy.visit('/')
       cy.contains('Modal & Overlays').click()
       cy.contains('Toastr').click()
-
       cy.get('[type="checkbox"]').check({ force: true })
       cy.get('[type="checkbox"]').eq(1).check({ force: true })
    })
