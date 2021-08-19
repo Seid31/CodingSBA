@@ -8,7 +8,6 @@ describe('Our first suite', () => {
       cy.contains('Forms').click()
       cy.contains('Form Layouts').click()
       cy.get('[data-cy="imputEmail1"]').type('asbayramov@gmail.com')
-
    })
 
    it('Second Test', () => {
@@ -47,7 +46,6 @@ describe('Our first suite', () => {
          .find('[type="submit"]')
          .should('contain', 'Submit')
          .click()
-
 
       cy.contains('nb-card', 'Basic form')
          .find('[class="custom-checkbox"]').click()
@@ -113,7 +111,6 @@ describe('Our first suite', () => {
          .find('.custom-checkbox')
          .invoke('attr', 'class')
          .should('contain', 'checked')
-
    })
 
    it('Datepicker Common', () => {
@@ -127,7 +124,6 @@ describe('Our first suite', () => {
          cy.get('nb-calendar-day-picker').contains('17').click()
          cy.wrap(input).invoke('prop', 'value').should('contain', 'Jun 17, 2021')
       })
-
    })
 
    it('radio buttons', () => {
@@ -149,7 +145,6 @@ describe('Our first suite', () => {
             .last()
             .should('be.disabled')
       })
-
    })
 
    it('check buttons', () => {
